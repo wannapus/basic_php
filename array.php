@@ -9,13 +9,13 @@
 </head>
 
 <body>
-<h3>Array</h3>
+<h1>การแสดงผลตัวแปรอาร์เรย์แบบวนรอบ</h1>
 <?php 
     $colors=array("red"=>"100","blue"=>"200","yellow"=>"300","black"=>"400","green"=>"500","pink"=>"600");
     //$number=array("100","200","300","400","500","600");
     foreach($colors as $colors => $number):
         echo "สี : ".$colors." => ";
-        echo "รหัส :".$numberu."<br>";
+        echo "รหัส :".$number."<br>";
     endforeach;
     ?>
 </body>
